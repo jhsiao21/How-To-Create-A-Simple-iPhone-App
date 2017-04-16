@@ -1,5 +1,5 @@
 # How-To-Create-A-Simple-iPhone-App
-這是從著名iOS教學網站RayWenderlich上，我跟著實作的一個教學App, 總共有Part 1 ~ Part 3，完成後的App具有照片及評分的新增修改刪除功能，這個sample project是一個蟲子的評鑑App，我想也可以用來當作自我美食的評鑑App，只要換成美食圖片即可新增圖片並為其評分．  
+這是從著名iOS教學網站RayWenderlich上，我跟著實作的一個教學App, 總共有Part 1 ~ Part 3，完成後的App具有照片及評分的新增修改刪除功能，這個sample project原本是一個蟲子的評鑑App，我想也可以用來當作自我美食的評鑑App，只要換成美食圖片即可新增圖片並為其評分．  
 
 <div align="center">
   <img src="https://github.com/jhsiao21/How-To-Create-A-Simple-iPhone-App/blob/master/ScaryBugs-Part3/ScaryBugs-Part3/ScaryBugsImgs/menu.png"> 
