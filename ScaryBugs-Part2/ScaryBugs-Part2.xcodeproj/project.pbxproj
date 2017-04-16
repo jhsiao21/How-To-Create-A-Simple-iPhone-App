@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028EE7251E961C9E0071024B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7241E961C9E0071024B /* main.m */; };
+		028EE7281E961C9E0071024B /* RWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7271E961C9E0071024B /* RWTAppDelegate.m */; };
+		028EE72B1E961C9E0071024B /* ScaryBugs_Part1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7291E961C9E0071024B /* ScaryBugs_Part1.xcdatamodeld */; };
+		028EE72E1E961C9E0071024B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE72D1E961C9E0071024B /* MasterViewController.m */; };
+		028EE7311E961C9E0071024B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7301E961C9E0071024B /* DetailViewController.m */; };
+		028EE7341E961C9E0071024B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7321E961C9E0071024B /* Main.storyboard */; };
+		028EE7361E961C9E0071024B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7351E961C9E0071024B /* Assets.xcassets */; };
+		028EE7391E961C9E0071024B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7371E961C9E0071024B /* LaunchScreen.storyboard */; };
+		028EE7441E96200B0071024B /* RWTScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7431E96200B0071024B /* RWTScaryBugData.m */; };
+		028EE7471E96232B0071024B /* RWTScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE7461E96232B0071024B /* RWTScaryBugDoc.m */; };
+		028EE7511E962BCC0071024B /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7491E962BCC0071024B /* centipede.jpg */; };
+		028EE7521E962BCC0071024B /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74A1E962BCC0071024B /* centipedeThumb.jpg */; };
+		028EE7531E962BCC0071024B /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74B1E962BCC0071024B /* ladybug.jpg */; };
+		028EE7541E962BCC0071024B /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74C1E962BCC0071024B /* ladybugThumb.jpg */; };
+		028EE7551E962BCC0071024B /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74D1E962BCC0071024B /* potatoBug.jpg */; };
+		028EE7561E962BCC0071024B /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74E1E962BCC0071024B /* potatoBugThumb.jpg */; };
+		028EE7571E962BCC0071024B /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE74F1E962BCC0071024B /* wolfSpider.jpg */; };
+		028EE7581E962BCC0071024B /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7501E962BCC0071024B /* wolfSpiderThumb.jpg */; };
+		028EE75C1E9631270071024B /* RWTRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE75B1E9631270071024B /* RWTRateView.m */; };
+		028EE7601E9631580071024B /* RWTUIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 028EE75F1E9631580071024B /* RWTUIImageExtras.m */; };
+		028EE7661E96316F0071024B /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7621E96316F0071024B /* logo1.png */; };
+		028EE7671E96316F0071024B /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7631E96316F0071024B /* shockedface2_empty.png */; };
+		028EE7681E96316F0071024B /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7641E96316F0071024B /* shockedface2_full.png */; };
+		028EE7691E96316F0071024B /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 028EE7651E96316F0071024B /* shockedface2_half.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028EE7201E961C9E0071024B /* ScaryBugs-Part2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScaryBugs-Part2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		028EE7241E961C9E0071024B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		028EE7261E961C9E0071024B /* RWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTAppDelegate.h; sourceTree = "<group>"; };
+		028EE7271E961C9E0071024B /* RWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTAppDelegate.m; sourceTree = "<group>"; };
+		028EE72A1E961C9E0071024B /* ScaryBugs_Part1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScaryBugs_Part1.xcdatamodel; sourceTree = "<group>"; };
+		028EE72C1E961C9E0071024B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		028EE72D1E961C9E0071024B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		028EE72F1E961C9E0071024B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		028EE7301E961C9E0071024B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		028EE7331E961C9E0071024B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028EE7351E961C9E0071024B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028EE7381E961C9E0071024B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		028EE73A1E961C9E0071024B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028EE7421E96200B0071024B /* RWTScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugData.h; sourceTree = "<group>"; };
+		028EE7431E96200B0071024B /* RWTScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugData.m; sourceTree = "<group>"; };
+		028EE7451E96232B0071024B /* RWTScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugDoc.h; sourceTree = "<group>"; };
+		028EE7461E96232B0071024B /* RWTScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugDoc.m; sourceTree = "<group>"; };
+		028EE7491E962BCC0071024B /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		028EE74A1E962BCC0071024B /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		028EE74B1E962BCC0071024B /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		028EE74C1E962BCC0071024B /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		028EE74D1E962BCC0071024B /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		028EE74E1E962BCC0071024B /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		028EE74F1E962BCC0071024B /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		028EE7501E962BCC0071024B /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		028EE75A1E9631270071024B /* RWTRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTRateView.h; sourceTree = "<group>"; };
+		028EE75B1E9631270071024B /* RWTRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTRateView.m; sourceTree = "<group>"; };
+		028EE75E1E9631580071024B /* RWTUIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTUIImageExtras.h; sourceTree = "<group>"; };
+		028EE75F1E9631580071024B /* RWTUIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTUIImageExtras.m; sourceTree = "<group>"; };
+		028EE7621E96316F0071024B /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		028EE7631E96316F0071024B /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		028EE7641E96316F0071024B /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		028EE7651E96316F0071024B /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028EE71D1E961C9E0071024B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028EE7171E961C9E0071024B = {
+			isa = PBXGroup;
+			children = (
+				028EE7221E961C9E0071024B /* ScaryBugs-Part2 */,
+				028EE7211E961C9E0071024B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028EE7211E961C9E0071024B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7201E961C9E0071024B /* ScaryBugs-Part2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028EE7221E961C9E0071024B /* ScaryBugs-Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7611E9631610071024B /* Art */,
+				028EE75D1E9631470071024B /* Helper */,
+				028EE7591E9630DE0071024B /* Views */,
+				028EE7481E962BCC0071024B /* ScaryBugsImgs */,
+				028EE7411E961F9E0071024B /* Model */,
+				028EE7401E961F510071024B /* GUI */,
+				028EE7351E961C9E0071024B /* Assets.xcassets */,
+				028EE7231E961C9E0071024B /* Supporting Files */,
+			);
+			path = "ScaryBugs-Part2";
+			sourceTree = "<group>";
+		};
+		028EE7231E961C9E0071024B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7241E961C9E0071024B /* main.m */,
+				028EE73A1E961C9E0071024B /* Info.plist */,
+				028EE7291E961C9E0071024B /* ScaryBugs_Part1.xcdatamodeld */,
+				028EE7371E961C9E0071024B /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		028EE7401E961F510071024B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7261E961C9E0071024B /* RWTAppDelegate.h */,
+				028EE7271E961C9E0071024B /* RWTAppDelegate.m */,
+				028EE72C1E961C9E0071024B /* MasterViewController.h */,
+				028EE72D1E961C9E0071024B /* MasterViewController.m */,
+				028EE72F1E961C9E0071024B /* DetailViewController.h */,
+				028EE7301E961C9E0071024B /* DetailViewController.m */,
+				028EE7321E961C9E0071024B /* Main.storyboard */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		028EE7411E961F9E0071024B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7421E96200B0071024B /* RWTScaryBugData.h */,
+				028EE7431E96200B0071024B /* RWTScaryBugData.m */,
+				028EE7451E96232B0071024B /* RWTScaryBugDoc.h */,
+				028EE7461E96232B0071024B /* RWTScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		028EE7481E962BCC0071024B /* ScaryBugsImgs */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7491E962BCC0071024B /* centipede.jpg */,
+				028EE74A1E962BCC0071024B /* centipedeThumb.jpg */,
+				028EE74B1E962BCC0071024B /* ladybug.jpg */,
+				028EE74C1E962BCC0071024B /* ladybugThumb.jpg */,
+				028EE74D1E962BCC0071024B /* potatoBug.jpg */,
+				028EE74E1E962BCC0071024B /* potatoBugThumb.jpg */,
+				028EE74F1E962BCC0071024B /* wolfSpider.jpg */,
+				028EE7501E962BCC0071024B /* wolfSpiderThumb.jpg */,
+			);
+			path = ScaryBugsImgs;
+			sourceTree = "<group>";
+		};
+		028EE7591E9630DE0071024B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				028EE75A1E9631270071024B /* RWTRateView.h */,
+				028EE75B1E9631270071024B /* RWTRateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		028EE75D1E9631470071024B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				028EE75E1E9631580071024B /* RWTUIImageExtras.h */,
+				028EE75F1E9631580071024B /* RWTUIImageExtras.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		028EE7611E9631610071024B /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				028EE7621E96316F0071024B /* logo1.png */,
+				028EE7631E96316F0071024B /* shockedface2_empty.png */,
+				028EE7641E96316F0071024B /* shockedface2_full.png */,
+				028EE7651E96316F0071024B /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028EE71F1E961C9E0071024B /* ScaryBugs-Part2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028EE73D1E961C9E0071024B /* Build configuration list for PBXNativeTarget "ScaryBugs-Part2" */;
+			buildPhases = (
+				028EE71C1E961C9E0071024B /* Sources */,
+				028EE71D1E961C9E0071024B /* Frameworks */,
+				028EE71E1E961C9E0071024B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScaryBugs-Part2";
+			productName = "ScaryBugs-Part1";
+			productReference = 028EE7201E961C9E0071024B /* ScaryBugs-Part2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028EE7181E961C9E0071024B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.Logan;
+				TargetAttributes = {
+					028EE71F1E961C9E0071024B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8NF3QEZDTM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 028EE71B1E961C9E0071024B /* Build configuration list for PBXProject "ScaryBugs-Part2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028EE7171E961C9E0071024B;
+			productRefGroup = 028EE7211E961C9E0071024B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028EE71F1E961C9E0071024B /* ScaryBugs-Part2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028EE71E1E961C9E0071024B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028EE7391E961C9E0071024B /* LaunchScreen.storyboard in Resources */,
+				028EE7551E962BCC0071024B /* potatoBug.jpg in Resources */,
+				028EE7571E962BCC0071024B /* wolfSpider.jpg in Resources */,
+				028EE7581E962BCC0071024B /* wolfSpiderThumb.jpg in Resources */,
+				028EE7541E962BCC0071024B /* ladybugThumb.jpg in Resources */,
+				028EE7511E962BCC0071024B /* centipede.jpg in Resources */,
+				028EE7521E962BCC0071024B /* centipedeThumb.jpg in Resources */,
+				028EE7361E961C9E0071024B /* Assets.xcassets in Resources */,
+				028EE7561E962BCC0071024B /* potatoBugThumb.jpg in Resources */,
+				028EE7531E962BCC0071024B /* ladybug.jpg in Resources */,
+				028EE7661E96316F0071024B /* logo1.png in Resources */,
+				028EE7341E961C9E0071024B /* Main.storyboard in Resources */,
+				028EE7681E96316F0071024B /* shockedface2_full.png in Resources */,
+				028EE7671E96316F0071024B /* shockedface2_empty.png in Resources */,
+				028EE7691E96316F0071024B /* shockedface2_half.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028EE71C1E961C9E0071024B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028EE7471E96232B0071024B /* RWTScaryBugDoc.m in Sources */,
+				028EE7311E961C9E0071024B /* DetailViewController.m in Sources */,
+				028EE7601E9631580071024B /* RWTUIImageExtras.m in Sources */,
+				028EE72E1E961C9E0071024B /* MasterViewController.m in Sources */,
+				028EE72B1E961C9E0071024B /* ScaryBugs_Part1.xcdatamodeld in Sources */,
+				028EE75C1E9631270071024B /* RWTRateView.m in Sources */,
+				028EE7441E96200B0071024B /* RWTScaryBugData.m in Sources */,
+				028EE7281E961C9E0071024B /* RWTAppDelegate.m in Sources */,
+				028EE7251E961C9E0071024B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		028EE7321E961C9E0071024B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028EE7331E961C9E0071024B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028EE7371E961C9E0071024B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028EE7381E961C9E0071024B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028EE73B1E961C9E0071024B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028EE73C1E961C9E0071024B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028EE73E1E961C9E0071024B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NF3QEZDTM;
+				INFOPLIST_FILE = "$(SRCROOT)/ScaryBugs-Part2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.ScaryBugs-Part2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		028EE73F1E961C9E0071024B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NF3QEZDTM;
+				INFOPLIST_FILE = "$(SRCROOT)/ScaryBugs-Part2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.ScaryBugs-Part2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028EE71B1E961C9E0071024B /* Build configuration list for PBXProject "ScaryBugs-Part2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028EE73B1E961C9E0071024B /* Debug */,
+				028EE73C1E961C9E0071024B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028EE73D1E961C9E0071024B /* Build configuration list for PBXNativeTarget "ScaryBugs-Part2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028EE73E1E961C9E0071024B /* Debug */,
+				028EE73F1E961C9E0071024B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		028EE7291E961C9E0071024B /* ScaryBugs_Part1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				028EE72A1E961C9E0071024B /* ScaryBugs_Part1.xcdatamodel */,
+			);
+			currentVersion = 028EE72A1E961C9E0071024B /* ScaryBugs_Part1.xcdatamodel */;
+			path = ScaryBugs_Part1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 028EE7181E961C9E0071024B /* Project object */;
+}
