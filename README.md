@@ -2,8 +2,8 @@
 這是從著名iOS教學網站RayWenderlich上，我跟著實作的一個教學App, 總共有Part 1 ~ Part 3，完成後的App具有照片及評分的新增修改刪除功能，這個sample project原本是一個蟲子的評鑑App，我想也可以用來當作自我美食的評鑑App，只要換成美食圖片即可新增圖片並為其評分．  
 
 <div align="center">
-  <img src="https://github.com/jhsiao21/How-To-Create-A-Simple-iPhone-App/blob/master/ScaryBugs-Part3/ScaryBugs-Part3/ScaryBugsImgs/menu.png"> 
-  <img src="https://github.com/jhsiao21/How-To-Create-A-Simple-iPhone-App/blob/master/ScaryBugs-Part3/ScaryBugs-Part3/ScaryBugsImgs/detail.png"><br><br>
+  <img src="https://github.com/jhsiao21/How-To-Create-A-Simple-iPhone-App/blob/master/ScaryBugs-Part3/ScaryBugs-Part3/ScaryBugsImgs/tableView.jpg"> 
+  <img src="https://github.com/jhsiao21/How-To-Create-A-Simple-iPhone-App/blob/master/ScaryBugs-Part3/ScaryBugs-Part3/ScaryBugsImgs/Cell.jpg"><br><br>
 </div>
 
 這個sample project大概涵蓋的主題有以下：  
